@@ -13,10 +13,12 @@ function Logo() {
         <Image
           src={logo}
           alt={name}
-          width={{ base: "auto", md: "auto" }}
           height={{ base: "36px", md: "44px" }}
+          width="auto"
           objectFit="contain"
-          style={{ aspectRatio: "auto" }}
+          htmlWidth="200"
+          htmlHeight="152"
+          fetchPriority="high"
         />
       ) : (
         <Text fontWeight="bold" fontSize="3xl">

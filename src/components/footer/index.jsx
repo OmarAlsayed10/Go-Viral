@@ -43,6 +43,9 @@ function Footer({
                 height="50px"
                 width="auto"
                 objectFit="contain"
+                htmlWidth="200"
+                htmlHeight="152"
+                fetchPriority="high"
               />
             ) : brand.name ? (
               <Text fontWeight="bold" fontSize="3xl">
