@@ -10,7 +10,7 @@ import Section from "../../../../sharedComponents/section";
 import { Button } from "../../../../sharedComponents/button";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 import ArrowRightIcon from "../../../../assets/icons/arrowRightIcon.svg?react";
-import { useContactForm } from "../../helper/usecontactform";
+import { useContactForm } from "../../helper/useContactForm";
 
 const INPUT_STYLES = {
   bg: "rgba(245,243,238,0.04)",
