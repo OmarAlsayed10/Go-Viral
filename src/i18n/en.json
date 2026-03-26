@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "about": "About",
+    "ourWork": "Our Work"
+  },
+  "hero": {
+    "title": "We Make Brands",
+    "highlightWord": "Impossible",
+    "titleSuffix": "to Ignore",
+    "eyebrow": "CREATIVE AGENCY . CAIRO",
+    "subtitle": "From bold visuals to viral campaigns — we craft content\nthat moves people and moves numbers.",
+    "getInTouch": "Get in Touch",
+    "ourWork": "Explore our work"
+  },
+  "home": {
+    "reelLabel": "Our Reel",
+    "statsProjects": "Projects Delivered",
+    "statsBrands": "Brands Elevated",
+    "statsDesigns": "Designs Created",
+    "statsRetention": "Client Retention",
+    "previewEyebrow": "Selected Work",
+    "previewTitle": "What We've",
+    "previewHighlight": "Created",
+    "viewAll": "View All Work",
+    "clientsEyebrow": "Trusted By",
+    "clientsTitle": "Brands We Have",
+    "clientsHighlight": "Elevated"
+  },
+  "mediaBanner": {
+    "eyebrow": "READY TO GROW?",
+    "title": "Let's Make Your Brand",
+    "highlightWord": "Go Viral",
+    "cta": "Start a Project"
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "title": "Your Brand Deserves to",
+    "highlightWord": "Go Viral",
+    "lead": "Go Viral is a Cairo-based creative agency founded in 2025 with a single obsession: making brands impossible to ignore. We work with restaurants, clinics, retailers, and ambitious businesses across Egypt who are tired of blending in and ready to stand out.\n\nWe're not a generic content farm. Every piece of work we produce — whether it's a scroll-stopping social post, a cinematic food reel, or a full brand identity — is built with intention, strategy, and a deep understanding of what makes people stop, engage, and share.\n\nFrom managing monthly content calendars to launching paid Meta Ads campaigns, from designing visual identities to writing content that captures attention — we handle the full creative picture so our clients can focus on running their business.\n",
+    "missionQuote": "\"We believe every brand has a story worth telling. Our job is to find that story, amplify it, and make the world impossible not to notice it.\"",
+    "missionAttr": "— Go Viral, Founded 2025",
+    "servicesEyebrow": "What We Do",
+    "servicesTitle": "Our",
+    "servicesHighlight": "Services",
+    "svcDesignTitle": "Graphic Design",
+    "svcDesignDesc": "Social media posts, logos, menus, posters, and brand identity systems that grab attention and build trust.",
+    "svcVideoTitle": "Content Creation",
+    "svcVideoDesc": "Reels, food photography, product shoots, and behind-the-scenes content that drives engagement and shares.",
+    "svcStrategyTitle": "Social Media Management",
+    "svcStrategyDesc": "Full account management — content calendars, posting, community engagement, paid ads, and monthly performance reports.",
+    "ctaTitle": "Ready to Work With",
+    "ctaHighlight": "Us?",
+    "ctaCta": "Let's Talk"
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Build Something",
+    "highlightWord": "Great",
+    "subtitle": "Have a project in mind? Tell us about it and we'll get back to you within 24 hours.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "nameLabel": "Your Name *",
+    "namePlaceholder": "Full name",
+    "emailFieldLabel": "Email Address *",
+    "emailPlaceholder": "email@company.com",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Your company",
+    "serviceLabel": "Service Needed",
+    "servicePlaceholder": "Select a service",
+    "messageLabel": "Tell Us About Your Project *",
+    "messagePlaceholder": "What are you looking to achieve?",
+    "send": "Send Message",
+    "successTitle": "Message Received",
+    "successDesc": "We'll be in touch within 24 hours. Exciting things ahead.",
+    "sendAnother": "Send Another"
+  },
+  "ourWork": {
+    "eyebrow": "Portfolio",
+    "title": "Our",
+    "highlightWord": "Work",
+    "subtitle": "Every project tells a story. Here's ours — built for brands that want to be remembered.",
+    "all": "All Work",
+    "design": "Graphic Design",
+    "video": "Video",
+    "marketing": "Marketing"
+  },
+  "projectDetail": {
+    "about": "About This Project",
+    "process": "How It Was Done",
+    "marketingPlan": "Marketing Plan",
+    "reels": "Reels & Videos",
+    "designs": "Designs",
+    "logos": "Logos",
+    "backToWork": "Back to All Work"
+  },
+  "projects": {
+    "drSmile": {
+      "title": "Dr. Smile Clinic",
+      "client": "Dr. Smile Clinic",
+      "tag": "Dental Clinic",
+      "about": "Dr. Smile Clinic is a modern dental clinic offering a full range of cosmetic and therapeutic dental services. We built their complete digital presence from the ground up — brand identity, social media strategy, and a content system designed to convert followers into booked appointments.",
+      "process": "We started with a brand audit and competitor analysis across dental clinics in the region. From there we crafted a visual identity that communicates trust, cleanliness, and approachability. Content pillars were defined around education, transformation stories, and promotional offers.",
+      "marketingPlan": "Monthly content calendar covering Facebook and Instagram with 3 posts per week. Content mix: 40% educational (dental tips, procedure explanations), 30% before/after transformations, 20% offers and promotions, 10% clinic culture. Paid Meta Ads targeting local audiences aged 20–45 interested in aesthetics and wellness. Monthly performance reports with KPI tracking."
+    },
+    "mazagangy": {
+      "title": "Mazagangy Restaurant",
+      "client": "Mazagangy",
+      "tag": "Restaurant",
+      "about": "Mazagangy is an Egyptian restaurant rooted in authentic local flavors and a warm community dining experience. We handled their full social media presence, capturing the soul of Egyptian street food culture and translating it into a compelling digital brand.",
+      "process": "Deep dive into the brand's personality and target audience — locals who value authentic taste, value for money, and a familiar dining atmosphere. We developed a content tone that is warm, colloquial, and community-driven, mirroring how Egyptians naturally talk about food.",
+      "marketingPlan": "Three posts per week on Facebook and Instagram. Content pillars: signature dishes and daily specials, behind-the-scenes kitchen content, customer testimonials and user-generated content, seasonal and occasion-based promotions (Ramadan, Eid, National holidays). Arabic copywriting with a local dialect tone. Paid campaigns during peak seasons with retargeting for previous page engagements."
+    },
+    "vila53": {
+      "title": "Vila 53 Restaurant",
+      "client": "Vila 53",
+      "tag": "Restaurant",
+      "about": "Vila 53 is a cozy casual dining restaurant in the heart of Tanta, known for its pasta, sandwiches, and relaxed atmosphere. We manage their social media with a warm, social tone that speaks directly to the young crowd who call Vila 53 their go-to hangout spot.",
+      "process": "The brand voice was defined around friendship, good vibes, and great food. We crafted a content strategy that feels personal and native to the audience — not corporate. Eid and seasonal campaigns were built around real customer moments and relatable copy that drives word-of-mouth sharing.",
+      "marketingPlan": "Three posts per week on Facebook and Instagram. Content mix: food photography and menu highlights, offers and bundles."
+    },
+    "smashIt": {
+      "title": "Smash It Restaurant",
+      "client": "Smash It",
+      "tag": "Restaurant",
+      "about": "Smash It is a bold smash burger and comfort food restaurant with a high-energy brand personality. We handled their visual content and social media designs — creating eye-catching posts that make followers stop scrolling and start ordering.",
+      "process": "The design direction was built around appetite appeal — bold colors, dramatic food photography compositions, and high-contrast layouts. Seasonal campaigns like Eid were executed with culturally relevant visuals combining the festive mood with their signature food identity.",
+      "marketingPlan": "High-frequency posting: 4–5 posts per week across Facebook and Instagram. Content types: new menu item reveals, combo offer announcements, seasonal campaign visuals (Ramadan, Eid), reels showcasing food preparation and cheese pulls. Design system built on dark backgrounds with warm gold and red accents to maximize appetite cues. Paid campaigns during seasonal peaks with offer-based creatives proven to drive foot traffic."
+    }
+  },
+  "services": {
+    "graphicDesign": "Graphic Design",
+    "videoProduction": "Content Creation",
+    "marketingStrategy": "Social Media Management",
+    "fullPackage": "Full Package"
+  },
+  "footer": {
+    "links": "Quick Links",
+    "contactUs": "Contact Us"
+  }
+}
