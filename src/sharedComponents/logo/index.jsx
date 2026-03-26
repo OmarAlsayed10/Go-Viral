@@ -13,8 +13,10 @@ function Logo() {
         <Image
           src={logo}
           alt={name}
+          width={{ base: "auto", md: "auto" }}
           height={{ base: "36px", md: "44px" }}
           objectFit="contain"
+          style={{ aspectRatio: "auto" }}
         />
       ) : (
         <Text fontWeight="bold" fontSize="3xl">
@@ -23,7 +25,8 @@ function Logo() {
           </Text>
           {restWords && (
             <Text as="span" color="accent.500">
-              {" "}{restWords}
+              {" "}
+              {restWords}
             </Text>
           )}
         </Text>

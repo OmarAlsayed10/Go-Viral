@@ -41,6 +41,7 @@ function Footer({
                 src={brand.logo}
                 alt={brand.name || "Logo"}
                 height="50px"
+                width="auto"
                 objectFit="contain"
               />
             ) : brand.name ? (
