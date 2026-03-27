@@ -50,6 +50,10 @@
     "svcVideoDesc": "Reels, food photography, product shoots, and behind-the-scenes content that drives engagement and shares.",
     "svcStrategyTitle": "Social Media Management",
     "svcStrategyDesc": "Full account management — content calendars, posting, community engagement, paid ads, and monthly performance reports.",
+    "svcWebTitle": "Web Development",
+    "svcWebDesc": "Landing pages, portfolio sites, and full business websites built fast, clean, and optimized for conversions.",
+    "svcBusinessTitle": "Business Development",
+    "svcBusinessDesc": "Market entry strategies, growth planning, partnership building, and the roadmap you need to scale your business the right way.",
     "ctaTitle": "Ready to Work With",
     "ctaHighlight": "Us?",
     "ctaCta": "Let's Talk"
@@ -134,6 +138,8 @@
     "graphicDesign": "Graphic Design",
     "videoProduction": "Content Creation",
     "marketingStrategy": "Social Media Management",
+    "webDevelopment": "Web Development",
+    "businessDevelopment": "Business Development",
     "fullPackage": "Full Package"
   },
   "footer": {

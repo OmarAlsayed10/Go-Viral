@@ -2,7 +2,7 @@ const siteConfig = {
   "type": "portfolio",
   "brand": {
     "logo": "/logo.webp",
-    "copyright": "© 2026 All Rights Reserved"
+    "copyright": `© ${new Date().getFullYear()} All Rights Reserved`
   },
   "navigation": {
     "items": [

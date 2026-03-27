@@ -2,8 +2,10 @@ import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import Section from "../../../../sharedComponents/section";
 import SectionHeading from "../../../../components/sectionheading";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
+
 function ServicesGrid() {
   const { t } = useTranslation();
+
   const services = [
     {
       icon: "✦",
@@ -20,7 +22,14 @@ function ServicesGrid() {
       title: t("about.svcStrategyTitle"),
       desc: t("about.svcStrategyDesc"),
     },
+    { icon: "◻", title: t("about.svcWebTitle"), desc: t("about.svcWebDesc") },
+    {
+      icon: "◆",
+      title: t("about.svcBusinessTitle"),
+      desc: t("about.svcBusinessDesc"),
+    },
   ];
+
   return (
     <Section bg="accent.500" py={{ base: 16, md: 24 }}>
       <SectionHeading
@@ -29,7 +38,7 @@ function ServicesGrid() {
         highlight={t("about.servicesHighlight")}
         mb={12}
       />
-      <SimpleGrid columns={{ base: 1, md: 3 }} gap={8}>
+      <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={8}>
         {services.map((s, i) => (
           <Box
             key={s.title}
@@ -65,4 +74,5 @@ function ServicesGrid() {
     </Section>
   );
 }
+
 export default ServicesGrid;

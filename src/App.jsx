@@ -6,10 +6,12 @@ import { TranslationProvider } from "./i18n/TranslationProvider";
 import siteConfig from "./config/siteConfig.js";
 import AppLayout from "./AppLayout";
 import AppRouter from "./AppRouter";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   return (
     <Provider>
+      <ScrollToTop />
       <ConfigProvider config={siteConfig}>
         <TranslationProvider defaultLocale="en">
           <Toaster />
