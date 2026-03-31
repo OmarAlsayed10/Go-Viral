@@ -4,7 +4,7 @@ import StatsBar from "./components/statsbar";
 import WorksPreview from "./components/workspreview";
 import BrandsMarquee from "./components/brandsmarquee";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <SectionRenderer>
@@ -15,6 +15,6 @@ function Home() {
       </SectionRenderer>
     </>
   );
-}
+};
 
 export default Home;

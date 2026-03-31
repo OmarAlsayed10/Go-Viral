@@ -4,12 +4,10 @@ import Section from "../../../../sharedComponents/section";
 import { Button } from "../../../../sharedComponents/button";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 import { workItems } from "../../../../data/portfolio";
-import ArrowRightIcon from "../../../../assets/icons/arrowRightIcon.svg?react";
 import WorkCard from "../../../../components/workcard";
 import SectionHeading from "../../../../components/sectionheading";
-function WorksPreview() {
-  const { t, locale } = useTranslation();
-  const arrowFlip = { transform: locale === "ar" ? "scaleX(-1)" : "none" };
+const WorksPreview = () => {
+  const { t } = useTranslation();
   const featured = workItems.slice(0, 3);
   return (
     <Section bg="accent.800" py={{ base: 16, md: 24 }}>
@@ -43,5 +41,5 @@ function WorksPreview() {
       </SimpleGrid>
     </Section>
   );
-}
+};
 export default WorksPreview;

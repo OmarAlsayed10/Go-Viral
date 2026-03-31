@@ -2,7 +2,7 @@ import { Text } from "@chakra-ui/react";
 import Section from "../../../../sharedComponents/section";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 
-function AboutLead() {
+const AboutLead = () => {
   const { t, locale } = useTranslation();
 
   return (
@@ -21,6 +21,6 @@ function AboutLead() {
       </Text>
     </Section>
   );
-}
+};
 
 export default AboutLead;

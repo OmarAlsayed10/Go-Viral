@@ -26,6 +26,18 @@ export const workItems = [
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774502508/IMG-20260324-WA0035_vs9w32.jpg",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774502508/IMG-20260324-WA0039_rxnhqr.jpg"
     ],
+    photography: [
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901933/WhatsApp_Image_2026-03-29_at_18.52.30_wieh1v.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.31_3_yemgce.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.30_4_qrdxvg.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901933/WhatsApp_Image_2026-03-29_at_18.52.31_1_vkr5ph.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.31_2_qhuio8.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.31_gjmshz.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901935/WhatsApp_Image_2026-03-29_at_18.52.30_3_x6ytze.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.30_1_hz6kh9.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901935/WhatsApp_Image_2026-03-29_at_18.52.30_2_ezdxo1.jpg",
+    ],
+
     reels: [""],
   },
   {

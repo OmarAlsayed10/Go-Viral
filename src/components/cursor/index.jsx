@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react";
 import { Box } from "@chakra-ui/react";
 
-function Cursor() {
+const Cursor = () => {
   const dotRef = useRef(null);
   const ringRef = useRef(null);
 
   useEffect(() => {
+    if (window.matchMedia("(pointer:coarse)").matches) return;
     const dot = dotRef.current;
     const ring = ringRef.current;
     if (!dot || !ring) return;
@@ -89,6 +90,6 @@ function Cursor() {
       />
     </>
   );
-}
+};
 
 export default Cursor;

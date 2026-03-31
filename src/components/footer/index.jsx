@@ -4,14 +4,14 @@ import MailIcon from "../../assets/icons/mailIcon.svg?react";
 import CallIcon from "../../assets/icons/callIcon.svg?react";
 import { useTranslation } from "../../i18n/TranslationProvider";
 import { Link } from "react-router-dom";
-function Footer({
+const Footer = ({
   brand = { name: "Website", description: "", copyright: "© 2025" },
   sections = [],
   backgroundColor,
   textColor = "white",
   social,
   ...props
-}) {
+}) => {
   const { t } = useTranslation();
   const iconMap = {
     CallIcon: <CallIcon />,
@@ -171,5 +171,5 @@ function Footer({
       )}
     </Box>
   );
-}
+};
 export default Footer;

@@ -1,7 +1,7 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useConfigSection } from "../../context/ConfigProvider";
-function Logo() {
+const Logo = () => {
   const brand = useConfigSection("brand");
   const { name = "website", logo } = brand;
   const words = name.split(" ");
@@ -35,5 +35,5 @@ function Logo() {
       )}
     </Link>
   );
-}
+};
 export default Logo;

@@ -24,7 +24,7 @@ const TEAM = [
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
   },
 ];
-function TeamGrid() {
+const TeamGrid = () => {
   const { t } = useTranslation();
   return (
     <Section bg="accent.500" py={{ base: 16, md: 24 }}>
@@ -78,5 +78,5 @@ function TeamGrid() {
       </SimpleGrid>
     </Section>
   );
-}
+};
 export default TeamGrid;

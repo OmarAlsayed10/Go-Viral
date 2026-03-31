@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-function Section({
+const Section = ({
   container = "xl",
   backgroundColor,
   backgroundImage,
@@ -9,7 +9,7 @@ function Section({
   position = "relative",
   overflow,
   ...props
-}) {
+}) => {
   const containerWidths = {
     full: "100%",
     default: "container.xl",
@@ -41,5 +41,5 @@ function Section({
       </Box>
     </Box>
   );
-}
+};
 export default Section;

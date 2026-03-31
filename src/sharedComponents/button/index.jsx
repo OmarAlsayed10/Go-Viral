@@ -3,14 +3,14 @@ import { buttonVariants } from "../../theme";
 import ArrowRightIcon from "../../assets/icons/arrowRightIcon.svg?react";
 import { useTranslation } from "../../i18n/TranslationProvider";
 
-function Button({
+const Button = ({
   value,
   variant = "primary",
   onClick,
   icon,
   withArrow,
   ...props
-}) {
+}) => {
   const { locale } = useTranslation();
 
   const resolvedIcon = withArrow ? (
@@ -29,6 +29,6 @@ function Button({
       </Flex>
     </CButton>
   );
-}
+};
 
 export { Button };

@@ -5,7 +5,7 @@ import ServicesGrid from "./components/servicesgrid";
 import AboutCTA from "./components/aboutcta";
 import AboutLead from "./components/aboutlead";
 
-function About() {
+const About = () => {
   return (
     <Box as="main">
       <AboutHero />
@@ -15,6 +15,6 @@ function About() {
       <AboutCTA />
     </Box>
   );
-}
+};
 
 export default About;

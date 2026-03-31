@@ -1,6 +1,6 @@
 import MediaBanner from "../../../../sharedComponents/mediabanner";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
-function AboutCTA() {
+const AboutCTA = () => {
   const { t } = useTranslation();
   return (
     <MediaBanner
@@ -11,5 +11,5 @@ function AboutCTA() {
       callToAction={{ text: t("mediaBanner.cta"), href: "/contact" }}
     />
   );
-}
+};
 export default AboutCTA;

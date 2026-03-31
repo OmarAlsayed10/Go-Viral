@@ -3,7 +3,7 @@ import arStrings from "./ar.json";
 import enStrings from "./en.json";
 const translations = { ar: arStrings, en: enStrings };
 const TranslationContext = createContext(null);
-export function TranslationProvider({ defaultLocale = "en", children }) {
+export const TranslationProvider = ({ defaultLocale = "en", children }) => {
   const [locale, setLocaleState] = useState(defaultLocale);
   const setLocale = useCallback((newLocale) => {
     setLocaleState(newLocale);
@@ -32,11 +32,11 @@ export function TranslationProvider({ defaultLocale = "en", children }) {
       {children}
     </TranslationContext.Provider>
   );
-}
-export function useTranslation() {
+};
+export const useTranslation = () => {
   const ctx = useContext(TranslationContext);
   if (!ctx) {
     throw new Error("useTranslation must be used within <TranslationProvider>");
   }
   return ctx;
-}
+};

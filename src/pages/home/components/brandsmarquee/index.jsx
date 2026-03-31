@@ -6,7 +6,7 @@ import { useTranslation } from "../../../../i18n/TranslationProvider";
 const CLIENTS = ["Villa 53", "Mazagangy", "Dr Smile Clinic", "Smash It"];
 const REPEATED_CLIENTS = [...CLIENTS, ...CLIENTS, ...CLIENTS, ...CLIENTS];
 
-function MarqueeTrack() {
+const MarqueeTrack = () => {
   return (
     <Flex gap={{ base: 8, md: 12 }} alignItems="center" px={{ base: 4, md: 6 }}>
       {REPEATED_CLIENTS.map((name, i) => (
@@ -28,9 +28,9 @@ function MarqueeTrack() {
       ))}
     </Flex>
   );
-}
+};
 
-function BrandsMarquee() {
+const BrandsMarquee = () => {
   const { t, locale } = useTranslation();
   const isRTL = locale === "ar";
 
@@ -82,6 +82,6 @@ function BrandsMarquee() {
       </Box>
     </Section>
   );
-}
+};
 
 export default BrandsMarquee;

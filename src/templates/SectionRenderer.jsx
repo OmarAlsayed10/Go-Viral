@@ -11,13 +11,13 @@ const HERO_I18N_FIELDS = [
   { i18nKey: "i18nGetInTouch", propKey: "getInTouch" },
 ];
 
-function SectionRenderer({
+const SectionRenderer = ({
   sections: sectionsProp,
   data = {},
   onAddToCart,
   onProductClick,
   children,
-}) {
+}) => {
   const config = useConfig();
   const heroConfig = useConfigSection("hero");
   const { t } = useTranslation();
@@ -125,6 +125,6 @@ function SectionRenderer({
       {rest.map((section, index) => resolveSection(section, index + 1))}
     </>
   );
-}
+};
 
 export default SectionRenderer;

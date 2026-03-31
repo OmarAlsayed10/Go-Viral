@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import { useTranslation } from "../../i18n/TranslationProvider";
-function LanguageToggle({ color, hoverColor }) {
+const LanguageToggle = ({ color, hoverColor }) => {
   const { locale, setLocale } = useTranslation();
   const toggleLocale = () => {
     setLocale(locale === "ar" ? "en" : "ar");
@@ -27,5 +27,5 @@ function LanguageToggle({ color, hoverColor }) {
       </Text>
     </Box>
   );
-}
+};
 export default LanguageToggle;

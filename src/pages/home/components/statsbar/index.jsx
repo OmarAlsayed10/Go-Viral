@@ -3,12 +3,15 @@ import Section from "../../../../sharedComponents/section";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 import { workItems } from "../../../../data/portfolio";
 
-function StatsBar() {
+const StatsBar = () => {
   const { t } = useTranslation();
 
   const projectCount = workItems.length;
   const brandCount = new Set(workItems.map((w) => w.i18nKey)).size;
-  const designCount = workItems.reduce((sum, w) => sum + (w.designs?.length || 0), 0);
+  const designCount = workItems.reduce(
+    (sum, w) => sum + (w.designs?.length || 0),
+    0,
+  );
 
   const stats = [
     { value: `${projectCount}+`, label: t("home.statsProjects") },
@@ -49,5 +52,5 @@ function StatsBar() {
       </SimpleGrid>
     </Section>
   );
-}
+};
 export default StatsBar;

@@ -1,7 +1,7 @@
 import Hero from "../../../../components/hero";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 
-function AboutHero() {
+const AboutHero = () => {
   const { t } = useTranslation();
 
   return (
@@ -16,6 +16,6 @@ function AboutHero() {
       image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=100"
     />
   );
-}
+};
 
 export default AboutHero;

@@ -4,14 +4,14 @@ const fontSizeMap = {
   md: { base: "3xl", md: "4xl" },
   lg: { base: "4xl", md: "5xl", lg: "6xl" },
 };
-function SectionHeading({
+const SectionHeading = ({
   eyebrow,
   title,
   highlight,
   textAlign = "center",
   size = "md",
   mb = 12,
-}) {
+}) => {
   return (
     <Box textAlign={textAlign} mb={mb}>
       {eyebrow && (
@@ -48,5 +48,5 @@ function SectionHeading({
       </Text>
     </Box>
   );
-}
+};
 export default SectionHeading;

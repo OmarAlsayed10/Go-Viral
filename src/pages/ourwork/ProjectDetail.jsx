@@ -1,9 +1,18 @@
 import { useParams, Link } from "react-router-dom";
-import { Box, Text, Image, SimpleGrid, Flex } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  Image,
+  SimpleGrid,
+  Flex,
+  Carousel,
+  IconButton,
+} from "@chakra-ui/react";
+import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import { workItems } from "../../data/portfolio";
 import { useTranslation } from "../../i18n/TranslationProvider";
 
-function SectionLabel({ children }) {
+const SectionLabel = ({ children }) => {
   return (
     <Text
       color="primary.500"
@@ -16,9 +25,9 @@ function SectionLabel({ children }) {
       {children}
     </Text>
   );
-}
+};
 
-function Prose({ children }) {
+const Prose = ({ children }) => {
   return (
     <Text
       color="paragraph.500"
@@ -29,9 +38,9 @@ function Prose({ children }) {
       {children}
     </Text>
   );
-}
+};
 
-function Gallery({ images }) {
+const Gallery = ({ images }) => {
   return (
     <SimpleGrid columns={{ base: 1, sm: 2, lg: 3 }} gap={4}>
       {images.map((src, i) => (
@@ -49,9 +58,9 @@ function Gallery({ images }) {
       ))}
     </SimpleGrid>
   );
-}
+};
 
-function ProjectDetail() {
+const ProjectDetail = () => {
   const { slug } = useParams();
   const { t } = useTranslation();
   const project = workItems.find((w) => w.slug === slug);
@@ -68,7 +77,11 @@ function ProjectDetail() {
           Project not found
         </Text>
         <Link to="/ourwork">
-          <Text color="primary.500" mt={4} _hover={{ textDecoration: "underline" }}>
+          <Text
+            color="primary.500"
+            mt={4}
+            _hover={{ textDecoration: "underline" }}
+          >
             {t("projectDetail.backToWork")}
           </Text>
         </Link>
@@ -81,7 +94,6 @@ function ProjectDetail() {
       <Box
         bg="accent.800"
         position="relative"
-        w="100%"
         h={{ base: "340px", md: "480px" }}
       >
         <Image
@@ -169,6 +181,60 @@ function ProjectDetail() {
             </Box>
           )}
 
+          {project.photography && project.photography.length > 0 && (
+            <Box>
+              <SectionLabel>{t("projectDetail.photography")}</SectionLabel>
+              <Carousel.Root
+                slidesToShow={{ base: 1, md: 2 }}
+                slideCount={project.photography.length}
+              >
+                <Carousel.ItemGroup>
+                  {project.photography.map((src, index) => (
+                    <Carousel.Item key={index} index={index}>
+                      <Box
+                        borderRadius="xl"
+                        h={{ base: "440px", md: "1000px" }}
+                      >
+                        <Image
+                          src={src}
+                          alt=""
+                          width="100%"
+                          height="100%"
+                          objectFit="cover"
+                        />
+                      </Box>
+                    </Carousel.Item>
+                  ))}
+                </Carousel.ItemGroup>
+                <Carousel.Control justifyContent="center" gap="4" mt={4}>
+                  <Carousel.PrevTrigger asChild>
+                    <IconButton
+                      size="sm"
+                      variant="ghost"
+                      color="primary.500"
+                      borderRadius="full"
+                      _hover={{ bg: "whiteAlpha.200" }}
+                    >
+                      <LuChevronLeft />
+                    </IconButton>
+                  </Carousel.PrevTrigger>
+                  <Carousel.Indicators />
+                  <Carousel.NextTrigger asChild>
+                    <IconButton
+                      size="sm"
+                      variant="ghost"
+                      color="primary.500"
+                      borderRadius="full"
+                      _hover={{ bg: "whiteAlpha.200" }}
+                    >
+                      <LuChevronRight />
+                    </IconButton>
+                  </Carousel.NextTrigger>
+                </Carousel.Control>
+              </Carousel.Root>
+            </Box>
+          )}
+
           {project.logos && project.logos.length > 0 && (
             <Box>
               <SectionLabel>{t("projectDetail.logos")}</SectionLabel>
@@ -195,6 +261,6 @@ function ProjectDetail() {
       </Box>
     </Box>
   );
-}
+};
 
 export default ProjectDetail;

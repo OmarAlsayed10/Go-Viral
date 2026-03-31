@@ -16,12 +16,12 @@ const sectionRegistry = {
     mediaBanner: MediaBanner,
 };
 
-export function getPageComponent(name) {
+const getPageComponent = (name) => {
     return pageRegistry[name] ?? null;
-}
+};
 
-export function getSectionComponent(type) {
+const getSectionComponent = (type) => {
     return sectionRegistry[type] ?? null;
 }
 
-export { pageRegistry, sectionRegistry };
+export { pageRegistry, sectionRegistry, getSectionComponent, getPageComponent };

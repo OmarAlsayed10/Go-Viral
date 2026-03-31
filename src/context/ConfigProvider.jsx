@@ -1,12 +1,12 @@
 import { createContext, useContext } from "react";
 import siteConfig from "../config/siteConfig";
 const configContext = createContext(null);
-export function ConfigProvider({ config = siteConfig, children }) {
+export const ConfigProvider = ({ config = siteConfig, children }) => {
   return (
     <configContext.Provider value={config}>{children}</configContext.Provider>
   );
-}
-export function useConfig() {
+};
+export const useConfig = () => {
   const config = useContext(configContext);
   if (!config) {
     if (import.meta.env.DEV) {
@@ -18,8 +18,8 @@ export function useConfig() {
     return siteConfig;
   }
   return config;
-}
-export function useConfigSection(section) {
+};
+export const useConfigSection = (section) => {
   const config = useConfig();
   if (import.meta.env.DEV && !(section in config)) {
     console.warn(
@@ -28,4 +28,4 @@ export function useConfigSection(section) {
     );
   }
   return config[section] ?? {};
-}
+};

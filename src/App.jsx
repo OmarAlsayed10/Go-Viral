@@ -8,7 +8,7 @@ import AppLayout from "./AppLayout";
 import AppRouter from "./AppRouter";
 import ScrollToTop from "./components/scrollToTop";
 
-function App() {
+const App = () => {
   return (
     <Provider>
       <ScrollToTop />
@@ -24,6 +24,6 @@ function App() {
       </ConfigProvider>
     </Provider>
   );
-}
+};
 
 export default App;

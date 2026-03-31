@@ -3,7 +3,7 @@ import { Button } from "../button";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "../../i18n/TranslationProvider";
 
-function MediaBanner({
+const MediaBanner = ({
   eyebrow,
   title,
   highlightWord,
@@ -13,10 +13,8 @@ function MediaBanner({
   callToAction,
   children,
   ...props
-}) {
+}) => {
   const navigate = useNavigate();
-  const { locale } = useTranslation();
-  const arrowFlip = { transform: locale === "ar" ? "scaleX(-1)" : "none" };
 
   const entrance = (delay) => ({
     animation: `heroIn 1.2s ${delay}s cubic-bezier(0.16, 1, 0.3, 1) both`,
@@ -124,6 +122,6 @@ function MediaBanner({
       </Flex>
     </Box>
   );
-}
+};
 
 export default MediaBanner;

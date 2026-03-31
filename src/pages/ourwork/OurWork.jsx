@@ -4,7 +4,7 @@ import SectionRenderer from "../../templates/SectionRenderer";
 import { workItems } from "../../data/portfolio";
 import WorkGrid from "./components/workgrid";
 
-function OurWork() {
+const OurWork = () => {
   return (
     <Box as="main">
       <SectionRenderer>
@@ -14,6 +14,6 @@ function OurWork() {
       </SectionRenderer>
     </Box>
   );
-}
+};
 
 export default OurWork;

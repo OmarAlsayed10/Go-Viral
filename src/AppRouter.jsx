@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import { useConfig } from "./context/ConfigProvider";
 import { getPageComponent } from "./registry";
-function AppRouter() {
+const AppRouter = () => {
   const config = useConfig();
   const { pages = [] } = config;
   return (
@@ -16,5 +16,5 @@ function AppRouter() {
       </Routes>
     </Suspense>
   );
-}
+};
 export default AppRouter;

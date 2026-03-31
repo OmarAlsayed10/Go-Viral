@@ -1,7 +1,7 @@
 import { useState } from "react";
 const INITIAL = { name: "", email: "", company: "", service: "", message: "" };
 const WHATSAPP_NUMBER = "201552731225";
-export function useContactForm() {
+export const useContactForm = () => {
   const [form, setForm] = useState(INITIAL);
   const [status, setStatus] = useState("idle");
   const setField = (field) => (e) =>

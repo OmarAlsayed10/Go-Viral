@@ -4,7 +4,7 @@ import { Button } from "../../sharedComponents/button";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "../../i18n/TranslationProvider";
 
-function Hero({
+const Hero = ({
   title,
   highlightWord,
   titleSuffix,
@@ -23,7 +23,7 @@ function Hero({
   contactInfo,
   children,
   ...props
-}) {
+}) => {
   const navigate = useNavigate();
   const { locale } = useTranslation();
   const arrowFlip = { transform: locale === "ar" ? "scaleX(-1)" : "none" };
@@ -271,6 +271,6 @@ function Hero({
       </Flex>
     </Box>
   );
-}
+};
 
 export default Hero;

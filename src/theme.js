@@ -27,9 +27,9 @@ const colorSchemes = {
     },
   },
 };
-export function getColorScheme(schemeName = "default") {
+export const getColorScheme = (schemeName = "default") => {
   return colorSchemes[schemeName] ?? colorSchemes.default;
-}
+};
 import siteConfig from "./config/siteConfig.js";
 const activeScheme = getColorScheme(siteConfig.theme?.colorSchema);
 const typography = {

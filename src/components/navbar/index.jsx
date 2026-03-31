@@ -26,7 +26,7 @@ const VARIANT_STYLES = {
   },
 };
 
-function Navbar({
+const Navbar = ({
   navItems = [],
   actions = [],
   variant = "default",
@@ -34,7 +34,7 @@ function Navbar({
   textColor,
   hoverColor,
   ...props
-}) {
+}) => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -156,6 +156,6 @@ function Navbar({
       )}
     </Box>
   );
-}
+};
 
 export default Navbar;

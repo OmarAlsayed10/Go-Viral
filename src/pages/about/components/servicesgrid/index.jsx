@@ -3,7 +3,7 @@ import Section from "../../../../sharedComponents/section";
 import SectionHeading from "../../../../components/sectionheading";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 
-function ServicesGrid() {
+const ServicesGrid = () => {
   const { t } = useTranslation();
 
   const services = [
@@ -73,6 +73,6 @@ function ServicesGrid() {
       </SimpleGrid>
     </Section>
   );
-}
+};
 
 export default ServicesGrid;

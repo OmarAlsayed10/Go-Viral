@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 import Cursor from "./components/cursor";
 import { Box } from "@chakra-ui/react";
 import { useConfigSection } from "./context/ConfigProvider";
-function AppLayout({ children }) {
+const AppLayout = ({ children }) => {
   const navigation = useConfigSection("navigation");
   const footer = useConfigSection("footer");
   const brand = useConfigSection("brand");
@@ -57,5 +57,5 @@ function AppLayout({ children }) {
       />
     </>
   );
-}
+};
 export default AppLayout;

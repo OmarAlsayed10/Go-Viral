@@ -25,7 +25,7 @@ const INPUT_STYLES = {
   _placeholder: { color: "paragraph.300" },
 };
 
-function FieldLabel({ children }) {
+const FieldLabel = ({ children }) => {
   return (
     <Text
       color="paragraph.400"
@@ -37,9 +37,9 @@ function FieldLabel({ children }) {
       {children}
     </Text>
   );
-}
+};
 
-function SuccessState({ onReset, arrowFlip }) {
+const SuccessState = ({ onReset, arrowFlip }) => {
   const { t } = useTranslation();
   return (
     <Flex direction="column" alignItems="center" textAlign="center" py={16}>
@@ -75,9 +75,9 @@ function SuccessState({ onReset, arrowFlip }) {
       />
     </Flex>
   );
-}
+};
 
-function ContactForm() {
+const ContactForm = () => {
   const { t, locale } = useTranslation();
   const arrowFlip = { transform: locale === "ar" ? "scaleX(-1)" : "none" };
   const { form, status, setField, handleSubmit, reset, isSubmittable } =
@@ -198,6 +198,6 @@ function ContactForm() {
       </Box>
     </Section>
   );
-}
+};
 
 export default ContactForm;

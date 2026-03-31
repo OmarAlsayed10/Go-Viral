@@ -1,5 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
-function WorkFilterTabs({ categories, active, labelMap, onChange }) {
+const WorkFilterTabs = ({ categories, active, labelMap, onChange }) => {
   return (
     <Flex
       justifyContent="center"
@@ -31,5 +31,5 @@ function WorkFilterTabs({ categories, active, labelMap, onChange }) {
       ))}
     </Flex>
   );
-}
+};
 export default WorkFilterTabs;

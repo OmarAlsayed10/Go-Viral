@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "../../i18n/TranslationProvider";
 
-function WorkCard({ item, index }) {
+const WorkCard = ({ item, index }) => {
   const { t } = useTranslation();
   const p = (field) =>
     item.i18nKey
@@ -101,5 +101,5 @@ function WorkCard({ item, index }) {
       </Box>
     </Link>
   );
-}
+};
 export default WorkCard;

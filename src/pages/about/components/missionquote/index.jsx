@@ -1,7 +1,7 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import Section from "../../../../sharedComponents/section";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
-function MissionQuote() {
+const MissionQuote = () => {
   const { t } = useTranslation();
   return (
     <Section bg="accent.800" py={{ base: 16, md: 20 }}>
@@ -29,5 +29,5 @@ function MissionQuote() {
       </Flex>
     </Section>
   );
-}
+};
 export default MissionQuote;

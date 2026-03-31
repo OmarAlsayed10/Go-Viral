@@ -2,7 +2,7 @@ import Hero from "../../../../components/hero";
 import { useTranslation } from "../../../../i18n/TranslationProvider";
 import { useConfigSection } from "../../../../context/ConfigProvider";
 
-function ContactHero() {
+const ContactHero = () => {
   const { t } = useTranslation();
   const footerConfig = useConfigSection("footer");
   const contactSection = footerConfig.sections?.find(
@@ -35,6 +35,6 @@ function ContactHero() {
       contactInfo={contactInfo}
     />
   );
-}
+};
 
 export default ContactHero;
