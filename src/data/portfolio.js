@@ -42,7 +42,6 @@ export const workItems = [
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072809/Untitled19_20260401003009_wchxaf.png",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072816/Untitled13_20260401002059_mm3hn1.png",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072819/Untitled18_20260401002629_xz5thn.png",
-      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072819/Untitled18_20260401002629_xz5thn.png",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072828/Untitled22_20260401003349_ijqw5k.png",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072832/Untitled23_20260401003428_hlvqy6.png",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072838/Untitled24_20260401003452_szijil.png",
