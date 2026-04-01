@@ -36,7 +36,19 @@ export const workItems = [
     category: "marketing",
     thumbnail: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
     designs: [
-      "https://res.cloudinary.com/dxvrgy3va/image/upload/v1774503223/IMG-20260324-WA0034_qami4a.jpg"
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774503223/IMG-20260324-WA0034_qami4a.jpg",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072806/Untitled14_1_mourzo.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072808/Untitled16_20260401002407_wjsk51.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072809/Untitled19_20260401003009_wchxaf.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072816/Untitled13_20260401002059_mm3hn1.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072819/Untitled18_20260401002629_xz5thn.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072819/Untitled18_20260401002629_xz5thn.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072828/Untitled22_20260401003349_ijqw5k.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072832/Untitled23_20260401003428_hlvqy6.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072838/Untitled24_20260401003452_szijil.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072842/Untitled17_20260401002456_qjwzea.png",
+      "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072846/Untitled26_20260401003517_h8x7e5.png",
+
     ],
     reels: [],
   },
