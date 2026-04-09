@@ -7,6 +7,7 @@ import siteConfig from "./config/siteConfig.js";
 import AppLayout from "./AppLayout";
 import AppRouter from "./AppRouter";
 import ScrollToTop from "./components/scrollToTop";
+import Maintenance from "./pages/Maintenance";
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
         <TranslationProvider defaultLocale="en">
           <Toaster />
           <Suspense>
-            <AppLayout>
+            {/* <AppLayout>
               <AppRouter />
-            </AppLayout>
+            </AppLayout> */}
+            <Maintenance />
           </Suspense>
         </TranslationProvider>
       </ConfigProvider>
