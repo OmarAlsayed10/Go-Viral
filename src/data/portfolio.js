@@ -27,7 +27,6 @@ export const workItems = [
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774502508/IMG-20260324-WA0039_rxnhqr.jpg"
     ],
 
-    reels: [""],
   },
   {
     id: "3",
@@ -49,7 +48,6 @@ export const workItems = [
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1775072846/Untitled26_20260401003517_h8x7e5.png",
 
     ],
-    reels: [],
   },
   {
     id: "4",
@@ -76,6 +74,5 @@ export const workItems = [
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901934/WhatsApp_Image_2026-03-29_at_18.52.30_1_hz6kh9.jpg",
       "https://res.cloudinary.com/dxvrgy3va/image/upload/w_800,q_auto,f_auto/v1774901935/WhatsApp_Image_2026-03-29_at_18.52.30_2_ezdxo1.jpg",
     ],
-    reels: [""],
   },
 ];
