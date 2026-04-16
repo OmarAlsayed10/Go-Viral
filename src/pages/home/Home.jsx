@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <SectionRenderer>
-        <ReelCarousel />
+        {/* <ReelCarousel /> */}
         <StatsBar />
         <WorksPreview />
         <BrandsMarquee />
