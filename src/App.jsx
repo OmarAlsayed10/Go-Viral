@@ -17,10 +17,10 @@ const App = () => {
         <TranslationProvider defaultLocale="en">
           <Toaster />
           <Suspense>
-            {/* <AppLayout>
+            <AppLayout>
               <AppRouter />
-            </AppLayout> */}
-            <Maintenance />
+            </AppLayout>
+            {/* <Maintenance /> */}
           </Suspense>
         </TranslationProvider>
       </ConfigProvider>
